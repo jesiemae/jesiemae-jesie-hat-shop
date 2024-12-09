@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body {
+		font-family:cursive;
+            margin:0px 0px 94px 0px;
+            padding: 0;
+			box-sizing: border-box;
+			background-image: url('nice-wood1-kitchen_1048-4893.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            transition: background-image 0.5 ease;
+	}
+        
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 10px 15px;
+            color: #dbd1cb;
+            text-align: center;
+            font-size: 1.5em;
+            font-style: italic;
+            text-shadow: 4px 4px 10px #9c3809 ;
+            background-image: url('nice-wood-kitchen_1048-4893.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            transition: background-image 0.5 ease;
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+        }
+        .logo img{
+            max-width: 150px;
+            height:auto;
+            width: 250px; 
+              
+        }
+        .site-name{
+            margin:0;
+            flex-grow: 1;
+            text-align: center;
+            font-size: 12px;
+        }
+        .nav {
+            display: flex;
+            justify-content: left;
+            background-color: #e7bd8a;
+        }
+        .nav a {
+            color: #9e5002;
+            padding: 14px 10px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .nav a:hover {
+            background-color:  #b18c66;
+        }
+        .main {
+            padding: 20px;
+            text-align: center;
+            
+            
+        }
+        .footer {
+            background-image: url('d382f0a59d2d2ec86c613a04f9222ecd.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            transition: background-image 0.5 ease;
+            color: #dbd1cb;
+            font-size: 20px;
+            text-shadow: 2px 2px 5px #0c0b09 ;
+            text-align: center;
+            padding: 10px 0PX;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+           
+            
+        }
+        .dropdown {
+    position: relative;
+   
+}
+
+
+        header {
+            color: #e4e4e4;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            color: white;
+            text-shadow:
+                0 0 10px rgb(250, 234, 215),
+                0 0 20px rgb(250, 234, 215),
+                0 0 40px rgb(250, 234, 215),
+                0 0 80px rgb(250, 234, 215);
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #d87a21;
+            padding: 10px;
+
+        }
+
+        nav a {
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            text-shadow:
+                10px rgb(204, 101, 17),
+                20px rgb(204, 101, 17),
+                40px rgb(204, 101, 17),
+                80px rgb(204, 101, 17);
+
+        }
+
+        .gallery-image:nth-child(1) {
+            transform: rotateY(0deg);
+        }
+
+        .gallery-image:nth-child(2) {
+            transform: rotateY(90deg);
+        }
+
+        .gallery-image:nth-child(3) {
+            transform: rotateY(180deg);
+        }
+
+        .gallery-image:nth-child(4) {
+            transform: rotateY(270deg);
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotateY(0deg);
+            }
+
+            100% {
+                transform: rotateY(360deg);
+            }
+        }
+
+        .thumbnail-gallery {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            margin-top: 70px;
+            margin-left: 50px;
+        }
+
+        .thumbnail {
+            overflow: hidden;
+            border-radius: 8px;
+            transition: transform 0.3s;
+            width: 200px;
+            height: 205px;
+            position: relative;
+            margin-bottom: 10px;
+        }
+
+        .thumbnail img {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        .thumbnail:hover {
+            transform: scale(1.1);
+        }
+
+        .description {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            text-align: center;
+            font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+            font-size: 15px;
+            padding: 1px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .thumbnail:hover .description {
+            opacity: 1;
+
+        }
+		.product-name{
+            font-family: cursive;
+            font-size: 2em;
+            color: #e7bd8a;
+            text-shadow: 4px 4px 10px #9c3809;
+            justify-content: center;
+    
+        
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="c:\Users\John\OneDrive\Pictures\Camera Roll\gentleman-vector-illustration-icon-templateeps-260nw-1604954170.jpg" alt="logo">
+                </div>
+            <h1>JESIE MAE HAT STORE</h1>
+            </div>
+        <div class="nav">
+            <a href="c:\Users\John\Home.html\HOME.HTML\home.html.html">Home</a>
+            <a href="c:\Users\John\Home.html\procduct.html.html">Products</a>
+        </div>
+        <center>
+        <div class="product-name"></div>
+        </center>
+        <div class="thumbnail-gallery">
+            <div class="thumbnail"><a href="C:\Users\John\Home.html\.vscode\lab11.html"><img src="https://th.bing.com/th/id/R.70d03d1e2bf06d7ec963509055432adf?rik=UD32Sus7xXDaZQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f-pM7Klwmsw0w%2fURM4oL3wROI%2fAAAAAAAACL4%2fvlTYYFqB3GE%2fs1600%2f102361_014.jpg&ehk=kIkSOzwBkiHhU11nRvrOu9wRLSE3Go7UaswuoRWTyMI%3d&risl=&pid=ImgRaw&r=0" alt="Thumbnail 11"></a>
+                <div class="description">Outdoor hat 11</div>
+            </div>
+            <div class="thumbnail"><a href="C:\Users\John\Home.html\.vscode\lab12.html"><img src="https://th.bing.com/th/id/OIP.3O_i5Ou0_FTrv5GBBEY2YwHaLW?w=476&h=730&rs=1&pid=ImgDetMain" alt="Thumbnail 12"></a>
+                <div class="description">Outdoor hat 12</div>
+            </div>
+            <div class="thumbnail"><a href="C:\Users\John\Home.html\.vscode\lab13.html"><img src="https://i5.walmartimages.com/asr/aeaec2dd-33c7-410e-9a85-16d03110594e.ed29309db03add3a18c7c564a7d2045b.jpeg" alt="Thumbnail 13"></a>
+                <div class="description">Outdoor hat 13</div>
+            </div>
+            <div class="thumbnail"><a href="C:\Users\John\Home.html\.vscode\lab14.html"><img src="https://www.wpaoggiftshop.com/prodimages/10767-DEFAULT-l.jpg" alt="Thumbnail 9"></a>
+                <div class="description">Outdoor hat 14</div>
+            </div>
+            <div class="thumbnail"><a href="C:\Users\John\Home.html\.vscode\lab15.html"><img src="https://th.bing.com/th/id/OIP.46d0-Kqd4AEYyClI7CyWOAHaHa?rs=1&pid=ImgDetMain" alt="Thumbnail 10"></a>
+                <div class="description"> Outdoor hat  15</div>
+            </div>
+        </div>
